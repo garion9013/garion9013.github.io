@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+{% if page.show_profile == true %}
+{% if page.avatar %}
+<img class="float-left profile-img" src="{{site.baseurl}}/images/people/{{page.avatar}}">
+{% else %}
+<img class="float-left profile-img" src="{{site.baseurl}}/js/holder.js/120x160">
+{% endif %}
+<div class="profile-tag">
+<h3>{{page.name_en}} <small>({{page.name_kr}})</small></h3>
+<div style='margin-left:66px'>
+<ul>
+    {% if page.jobtitle and page.jobtitle != blank %}
+    <li><i class="fa fa-user fa-fw"></i>{{page.jobtitle}}</li>
+    {% endif %}
+    {% if page.email and page.email != blank %}
+    <li><i class="fa fa-envelope-o fa-fw"></i>{{page.email}}</li>
+    {% endif %}
+    {% if page.google_scholar and page.google_scholar != blank %}
+    <li><i class="fa fa-bar-chart-o fa-fw"></i><a href="{{page.google_scholar}}">Google Scholar</a></li>
+    {% endif %}
+    {% if page.homepage and page.homepage != blank %}
+    <li><i class="fa fa-home fa-fw"></i><a href="{{page.homepage}}">{{page.homepage}}</a></li>
+    {% endif %}
+    {% if page.github and page.github != blank %}
+    <li><i class="fa fa-github fa-fw"></i><a href="{{page.github}}">{{page.github}}</a></li>
+    {% endif %}
+    {% if page.cv and page.cv != blank %}
+    <li><i class="fa fa-link fa-fw"></i><a href="{{page.cv}}">[CV]</a></li>
+    {% endif %}
+</ul>
+</div>
+</div>
+
+<hr>
+{% endif %}
+
+{{ content }}
+
+<script src="{{ site.baseurl }}/js/holder.js"></script>

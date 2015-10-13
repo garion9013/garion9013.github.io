@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="post">
+    {% if page.date %}
+    <h2>{{ page.title }}</h2>
+    <p class="text-right">
+        <small>posted on {{ page.date | date: '%B %-d, %Y'}}</small>
+    </p>
+    <hr>
+    {% endif %}
+
+    <div class="text-justify">
+    {{ content }}
+    </div>
+</div>
