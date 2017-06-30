@@ -78,7 +78,8 @@ if (isLoaded == 0)
 { 
 return; 
 } 
-if (isMSIE11) 
+var isMSIE = /*@cc_on!@*/false;
+if (isMSIE) 
 { 
 nAdCornerOriginX = document.body.clientWidth - idAdCorner.width - nAdCornerMarginX; 
 nAdCornerOriginY = document.body.clientHeight - idAdCorner.height - nAdCornerMarginY; 
