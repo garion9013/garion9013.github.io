@@ -37,7 +37,6 @@ var nScrollBarWidth = 16;
 var nScrollBarHeight = 16; 
 
 // navigator check 
-var isMSIE = 0; 
 var nVersion = 3; 
 
 // refresh interval of AdCorner 
@@ -51,7 +50,6 @@ function setup ()
 nVersion = parseInt (navigator.appVersion); // chang 
 if (navigator.appName == "Microsoft Internet Explorer") 
 { 
-isMSIE = 1; 
 if (navigator.userAgent.indexOf ("MSIE 5") != -1) 
 { 
 nVersion = 5; 
@@ -59,7 +57,6 @@ nVersion = 5;
 } 
 else 
 { 
-isMSIE = 0; 
 if (nVersion >= 4) 
 { 
 window.captureEvents (Event.MOUSEMOVE); 
