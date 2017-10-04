@@ -1,6 +1,9 @@
 TEST
 =============
 
+MathJax
+$test_{a}$
+
 code
 ```html
 <html>
