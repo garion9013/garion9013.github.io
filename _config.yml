@@ -8,7 +8,7 @@ baseurl:
 markdown:           kramdown
 highlighter:        rouge
 
-gems:
+plugins:
 - jekyll-paginate
 paginate: 5
 paginate_path: /news/page:num/
@@ -17,7 +17,11 @@ paginate_path: /news/page:num/
 sass:
     style:            :compressed
 
-
 collections:
     images:
         output: true
+
+    assets:
+        output: true
+        collections_dir: assets
+        permalink: /:name

@@ -8,7 +8,6 @@ avatar: oyh.jpg
 email: younghwan@skku.edu
 google_scholar: https://scholar.google.co.kr/citations?user=4x1sO8gAAAAJ&hl=en
 github: younghwanoh
-linkedin: https://www.linkedin.com/in/youngh-oh
 joined: 2013
 layout: profile
 show_profile: true
@@ -46,17 +45,44 @@ Bachelor of Science in Engineering
 
 {: .anchor}
 ### Publications
+<p style="color:#4ba056; font-size:15pt; font-family:Lato; margin-bottom:0">*Will be presented at the poster session!</p>
+<!--*-->
 
-**[IEEE MICRO '21]**
-Tae Jun Ham, David Bruns-Smith, Brendan Sweeney, Yejin Lee, Seong Hoon Seo, U Gyeong Song, {{ myname }},  Krste Asanovic, Jae W. Lee and Lisa Wu,
-"[Accelerating Genomic Data Analytics with Composable Hardware Acceleration Framework](/pubs/)",
-*IEEE MICRO: Special Issue on Top Picks from the 2020 Computer Architecture Conferences.*
+<style>
+.alert-green {
+  width:105%;
+  background-color: #d4edda;
+  font-size:11.5pt;
+  border-width: 4px;
+  color: rgb(0,0,0) !important;
+  padding: 5px !important;
+  padding-left: 10px !important;
+  margin-left: -10px !important;
+}
+.alert-content {
+  margin-top: -25px !important;
+  width:105%;
+  background-color: #ffffff;
+  border-color: #d4edda;
+  font-size:11.5pt;
+  border-width: 4px;
+  color: rgb(0,0,0) !important;
+  padding: 5px !important;
+  padding-left: 10px !important;
+  margin-left: -10px !important;
+}
+</style>
 
+{% assign name = "<i>Layerweaver</i>" %}
+{: .alert .alert-green}
 **[HPCA '21]**
 {{ myname }}, Seonghak Kim, Yunho Jin, Sam Son, Jonghyun Bae, Jongsung Lee, Yeonhong Park, Dong Uk Kim, Tae Jun Ham, and Jae W. Lee,
 "[Layerweaver: Maximizing Resource Utilization of Neural Processing Units via Layer-Wise Scheduling](/pubs/hpca21_layerweaver.pdf)",
 *The 27th IEEE International Symposium on High Performance Computer Architecture.*
 [{{ pptx }}](/pubs/hpca21_layerweaver.pptx)
+
+{: .alert .alert-content .alert-success}
+**Abstract** --- To meet surging demands for deep learning inference services, many cloud computing vendors employ high-performance specialized accelerators, called neural processing units (NPUs). One important challenge for effective use of NPUs is to achieve high resource utilization over a wide spectrum of deep neural network (DNN) models with diverse arithmetic intensities. There is often an intrinsic mismatch between the compute-to-memory bandwidth ratio of a NPU and the arithmetic intensity of a model, leading to significant resource under-utilization. Thus, we propose {{ name }}, an inference serving system with a novel multi-model time-multiplexing scheduler for NPUs. {{ name }} reduces the temporal waste of computation resources by interweaving layer execution of different models with opposing characteristics: compute-intensive and memory-intensive. {{ name }} hides the memory time of a memory-intensive model by overlapping it with the long computation time of a compute-intensive model, thereby minimizing the idle time. For two serving scenarios with 16 pairs of models, {{ name }} achieves near-perfect utilization of computation units and memory channels. 
 
 **[IEEE Access '21]**
 Jongho Kim, Beomkyu Seo, {{ myname }}, Jung-Hoon Chun, Jae W. Lee, and Jintae Kim,

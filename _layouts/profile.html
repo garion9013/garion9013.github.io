@@ -24,8 +24,11 @@ layout: default
     {% if page.homepage and page.homepage != blank %}
     <li><i class="fa fa-home fa-fw"></i><a href="{{page.homepage}}">{{page.homepage}}</a></li>
     {% endif %}
+    {% if page.linkedin and page.linkedin != blank %}
+    <li><i class="fa fa-linkedin fa-fw"></i><a href="{{page.linkedin}}">Linkedin</a></li>
+    {% endif %}
     {% if page.github and page.github != blank %}
-    <li><i class="fa fa-github fa-fw"></i><a href="{{page.github}}">{{page.github}}</a></li>
+    <li><i class="fa fa-github fa-fw"></i><a href="https://github.com/{{page.github}}">{{page.github}}@git</a></li>
     {% endif %}
     {% if page.cv and page.cv != blank %}
     <li><i class="fa fa-link fa-fw"></i><a href="{{page.cv}}">[CV]</a></li>
