@@ -78,7 +78,7 @@ Bachelor of Science in Engineering
 **[HPCA '21]**
 {{ myname }}, Seonghak Kim, Yunho Jin, Sam Son, Jonghyun Bae, Jongsung Lee, Yeonhong Park, Dong Uk Kim, Tae Jun Ham, and Jae W. Lee,
 "[Layerweaver: Maximizing Resource Utilization of Neural Processing Units via Layer-Wise Scheduling](/pubs/hpca21_layerweaver.pdf)",
-*The 27th IEEE International Symposium on High Performance Computer Architecture*
+*The 27th IEEE International Symposium on High Performance Computer Architecture.*
 [{{ pptx }}](/pubs/hpca21_layerweaver.pptx)
 
 {: .alert .alert-content .alert-success}
@@ -93,18 +93,18 @@ Jongho Kim, Beomkyu Seo, {{ myname }}, Jung-Hoon Chun, Jae W. Lee, and Jintae Ki
 Tae Jun Ham, David Bruns-Smith, Brendan Sweeney, Yejin Lee, Seong Hoon Seo, U Gyeong Song, {{ myname }}, Krste Asanovic, Jae W. Lee and Lisa Wu,
 "[Genesis: A Hardware Acceleration Framework for Genomic Data Analysis](/pubs/isca20_genesis.pdf)",
 *The 47th ACM/IEEE International Symposium on Computer Architecture*
-\- <span style="color:red"><b><i>Selected as IEEE MICRO Top Picks from Computer Architecture Conferences in 2020</i></b></span>
+\- <span style="color:red"><b><i>Selected as IEEE MICRO Top Picks from Computer Architecture Conferences in 2020.</i></b></span>
 
 **[HPCA '20]**
 Tae Jun Ham, Sung Jun Jung, Seonghak Kim, {{ myname }}, Yoon Ho Song, Junghoon Park, Sanghee Lee, Kyoung Park, Jae W. Lee, Deog-Kyoon Jeong,
 "[A3: Accelerating Neural Network Attention Mechanism with Approximation](/pubs/hpca20_a3.pdf)",
-*The 26th IEEE International Symposium on High Performance Computer Architecture*
+*The 26th IEEE International Symposium on High Performance Computer Architecture.*
 
 {: .anchor #pact18}
 **[PACT '18]**
 {{ myname }}, Quan Quan, Daeyeon Kim, Seonghak Kim, Jun Heo, Jaeyoung Jang, Sung Jun Jung, and Jae W. Lee,
 "[A Portable Automatic Data Quantizer for Deep Neural Networks](/pubs/pact18_libnumber.pdf)",
-*The 27th IEEE International Conference on Parallel Architectures and Compilation Techniques*
+*The 27th IEEE International Conference on Parallel Architectures and Compilation Techniques.*
 [{{ pptx }}](/pubs/pact18-talk.pptx)
 
 
@@ -112,7 +112,7 @@ Tae Jun Ham, Sung Jun Jung, Seonghak Kim, {{ myname }}, Yoon Ho Song, Junghoon P
 Channoh Kim, Jaehyeok Kim, Sungmin Kim, Dooyoung Kim, Namho Kim, Gitae Na, {{ myname }}, Hyeon Gyu Cho, and Jae W. Lee,
 "[Typed Architectures: Architectural Support for Lightweight Scripting](/pubs/asplos17_typed.pdf)",
 *The 22nd ACM Architectural Support for Programming Languages and Operating Systems*
-\- <span style="color:red"><b><i>Selected for ASPLOS Highlights session</i></b></span>
+\- <span style="color:red"><b><i>Selected for ASPLOS Highlights session.</i></b></span>
 [{{ pptx }}](/pubs/asplos17_typed-talk.pptx)
 
 
@@ -126,7 +126,7 @@ Channoh Kim, Sungmin Kim, Hyeon Gyu Cho, Dooyoung Kim, Jaehyeok Kim, {{ myname }
 **[IEEE D&T '16]**
 Donghwan Jeong, {{ myname }}, Yongjun Park, Jae W. Lee,
 "[An eDRAM-Based Approximate register File for GPUs](/pubs/ieeedt15_trrf.pdf)",
-*IEEE Design & Test: Special Issues on Approximate Computing*,
+*IEEE Design & Test: Special Issues on Approximate Computing.*,
 Vol. 33 (1), February 2016.
 
 
